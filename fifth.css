@@ -1,0 +1,53 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient Background */
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+/* Form Container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #ffffff; /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 3px, 0.5);
+    background:linear-gradient(white,rgb(128, 178, 235));
+}
+
+/* Form Labels and Inputs */
+.form-label {
+    color: #ff6f61; /* Coral color for labels */
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ff6f61; /* Coral color for borders */
+}
+
+/* Colors */
+.btn-primary {
+    background-color: #ff6f61; /* Coral color for button */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #ff4d4d; /* Darker coral color on hover */
+}
+
+/* Input Focus */
+.form-control:focus {
+    border-color: #ff6f61; /* Coral border on focus */
+    box-shadow: 0 0 0 0.2rem rgba(206, 109, 104, 0.25); /* Coral shadow on focus */
+}
+
+/* Button */
+.btn {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
