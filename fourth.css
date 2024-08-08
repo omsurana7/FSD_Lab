@@ -1,0 +1,55 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.bg-primary {
+    background-color: #007bff !important; /* Calm Blue */
+}
+
+/* Hero Section */
+#home {
+    background-image: url('Ai.jpeg'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* Light text color for contrast */
+    padding: 5rem 1rem;
+    text-align: center;
+}
+
+#home h2 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+#home p {
+    font-size: 1.2rem;
+}
+
+/* Rooms Section */
+.card {
+    border: 1px solid #007bff; /* Calm Blue */
+}
+
+.card-title {
+    color: #007bff; /* Calm Blue */
+}
+
+/* Amenities Section */
+.list-group-item {
+    background-color: #f1f1f1; /* Light Gray */
+    color: #333; /* Dark Gray */
+}
+
+/* Footer */
+.bg-secondary {
+    background-color: #343a40 !important; /* Dark Gray */
+}
+
+.footer .nav-link {
+    color: #ffffff !important;
+}
+
