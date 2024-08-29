@@ -1,0 +1,90 @@
+// var a=10;
+// var arr = [1,2,3,'a','abc',true,{a:'abc'}];
+// console.log(arr[6])
+// console.log(arr)
+// arr.push(100)
+// console.log(arr)
+// arr.pop()
+// console.log(arr)
+// console.log(arr.join("*"));
+// console.log(arr.join("=="));
+
+
+// var arr=[]
+// arr.push(10)
+// arr.push(20)
+// console.log(arr)
+// arr.shift()
+// console.log(arr)
+// arr.push(100)
+// console.log(arr)
+// arr.unshift(100)
+// console.log(arr)
+
+
+// const cars = ["Saab", "Volvo", "BMW"];
+// let size=cars.length;
+// let car=cars[2]
+// console.log(car);
+// console.log(size);
+// cars.sort()
+// console.log(cars)
+// let cab=cars.join("==")
+// console.log(cab)
+// cars.pop()
+// cars.push("Audi");
+// console.log(cars)
+// console.log(cars)
+// const person = {firstName:"John", lastName:"Doe", age:46};
+// console.log(person)
+
+// var person = {
+    
+//     name: 'xyz',
+//     age:20,
+//     hobbies: ['singing', 'dancing', 'chatting'],
+//     DOB: "12-4-1999",
+//     walking: function() {
+//     console.log('I am walking'); return "hello";
+    
+//     },
+//     watching: function() {
+//     const a = console.log('I am watching');
+//     return a;
+    
+//     }
+// }
+
+// console.log(person)
+// person.walking()
+
+
+function Person(name,age){
+    this.name=name;
+    this.age=age;
+}
+
+var person1=new Person('Mahesh',22);
+console.log(person1)
+
+
+var str="mango";
+var str2="apple"
+console.log(str.toUpperCase());
+console.log(str2.length)
+console.log(str2.slice(2,5))
+console.log(str2.slice(-5,-2))
+console.log(str)
+
+var str2="mango,apple,Kiwi,DragonFruit,Banana"
+var str3=str2.replace('apple','any_fruit');
+console.log(str3)
+console.log(str2.toUpperCase())
+console.log(str2.trim().concat(str.trim()).split(','))
+console.log(str2.split(','))
+const rep=str3.replace("any_fruit","apple");
+
+const a = '1234'
+const test1=a.padStart(3,'0')
+console.log(test1)
+

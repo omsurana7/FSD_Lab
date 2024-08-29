@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@500&display=swap');
+
+        * {
+            background-color: rgba(41, 152, 226, 0.363);
+        }
+
+        h1 {
+            font-family: 'Kalnia Glaze', sans-serif;
+            text-align: center;
+            font-size: 50px;
+            text-decoration: underline;
+        }
+        p{
+            color:black;
+            font-size: 15px;
+        }
+        .Intro{
+            display:flex;
+            justify-content: center; /* Center the items horizontally */
+            margin: 5px; /* Add some spacing around each item */
+            padding: 10px;
+            margin:10px;
+        }
