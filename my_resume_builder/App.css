@@ -1,0 +1,40 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, rgba(69, 192, 89, 0.534), rgba(222, 0, 238, 0.842));
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.App {
+  text-align: left;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.App:hover {
+  transform: scale(1.02);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #6a11cb; /* Color for the header */
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #555; /* Slightly muted color for paragraph text */
+}
